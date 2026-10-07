@@ -13,3 +13,9 @@
 - Added synthetic calibration, invalid-input, boundary, and real KITTI projection regression tests.
 - Ran python -m pytest -q src/tests successfully: all 5 tests passed.
 - Verified the synthetic projection CLI generated a PNG with 3,910 valid points, then removed the verification image from the task changes.
+
+## Task 3: Extended per-frame statistics (`src/health_stats.py`)
+- Implemented Task 3 in src/health_stats.py with finite-row statistics, 3D ranges, intensity metrics, angular coverage, and point hashes.
+- Added dataset tags, sorted per-frame DataFrames rounded to six decimals, and raw arrays for histograms.
+- Added tests for invalid and empty clouds, circular azimuth gaps, histogram boundaries, hashes, and the synthetic dataset.
+- Ran python -m pytest -q src/tests using the repository virtual environment; all 16 tests passed.
