@@ -26,3 +26,9 @@
 - Implemented time gaps and median gap ratios while preserving non-monotonic timestamps and resetting at scene boundaries.
 - Added tests for synthetic faults, missing timestamps, count mismatches, nuScenes scenes, caching, and empty inputs.
 - Validation: python -m pytest -q src/tests passed all 24 tests using the virtual environment.
+
+## Task 5: Alert rules (`src/health_rules.py`)
+- Implemented Task 5 health rules with reusable threshold constants, dataset medians, measured reasons, and triage actions.
+- Added duplicate-frame and timestamp alerts, robust intensity checks, and FOV-aware sector-gap detection.
+- Inspected synthetic statistics and added a physically motivated sparse-sector warning for partial angular dropout.
+- Added rule, synthetic-fault, and KITTI false-error sanity tests; all 44 tests pass with python -m pytest -q src/tests.
