@@ -58,3 +58,10 @@
 - Verified that the absolute KITTI threshold flags all 80 clean and all 80 degraded nuScenes frames; the relative rule flags 0 clean and 39 degraded frames.
 - Annotated KITTI front at 0 degrees and nuScenes front at +90 degrees, with nuScenes 0 degrees pointing right.
 - Verified repeat-run CSV byte equality and passed python -m pytest -q src/tests using the project virtual environment.
+
+## Task 10: Fill report/REPORT.md and pass check_submission
+﻿- Completed the Vietnamese report with CSV-backed claims, evidence tables, failure analysis, recommendations, and reproduction commands.
+- Linked the generated dashboards, stress plot, and failure-case figure, and documented the AI verification workflow.
+- Recorded the computed CP2 projection check and dataset configuration metadata in submission CSVs.
+- Added submission tests for the checker result and every referenced result image.
+- Verified that the full pytest suite passes and the submission checker ends with KẾT QUẢ: SẴN SÀNG NỘP.

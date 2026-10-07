@@ -1,0 +1,4 @@
+dataset,n_frames,beam_count,beam_count_source
+synthetic,5,,
+kitti_mini,20,64,approved task specification
+nuscenes_mini_subset,80,32,approved task specification
