@@ -97,10 +97,12 @@ RULES = [
 ]
 
 
-def evaluate(stats_df: pd.DataFrame, gaps_df: pd.DataFrame | None = None) -> pd.DataFrame:
+def evaluate(stats_df: pd.DataFrame, gaps_df: pd.DataFrame | None = None,
+             reference_stats: pd.DataFrame | None = None) -> pd.DataFrame:
     """Evaluate sorted frame IDs without modifying the input tables."""
-    medians = stats_df.median(numeric_only=True).to_dict()
-    means = stats_df.get('intensity_mean', pd.Series(dtype=float))
+    reference = stats_df if reference_stats is None else reference_stats
+    medians = reference.median(numeric_only=True).to_dict()
+    means = reference.get('intensity_mean', pd.Series(dtype=float))
     mad = (means - means.median()).abs().median()
     ctx = {'medians': medians, 'hashes': {},
            'intensity_sigma': MAD_SIGMA_FACTOR * max(INTENSITY_MAD_FLOOR, mad)}

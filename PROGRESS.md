@@ -45,3 +45,9 @@
 - Generated real dashboard CSVs and figures for synthetic, KITTI, and nuScenes, plus both requested projection overlays.
 - Visually checked both overlays for points on scene objects and no visible points in the sky.
 - Added handmade CSV tests covering aggregation, day/night splitting, fault evidence, missing timestamps, and deterministic exports; python -m pytest -q src/tests passed.
+
+## Task 8: Stress test / benchmark with ≥ 3 levels (`src/stress_test.py`)
+- Implemented Task 8 with four deterministic, five-level degradation sweeps and rule detection metrics.
+- Added optional clean reference statistics to freeze benchmark medians without changing existing rules or thresholds.
+- Generated KITTI detection CSV, KITTI/nuScenes latency CSV with 20 repeats per frame, and a four-panel detection figure.
+- Added synthetic CLI, reproducibility, latency, and frozen-reference tests; all 51 tests pass with python -m pytest -q src/tests.
