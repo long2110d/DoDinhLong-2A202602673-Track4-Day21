@@ -32,3 +32,9 @@
 - Added duplicate-frame and timestamp alerts, robust intensity checks, and FOV-aware sector-gap detection.
 - Inspected synthetic statistics and added a physically motivated sparse-sector warning for partial angular dropout.
 - Added rule, synthetic-fault, and KITTI false-error sanity tests; all 44 tests pass with python -m pytest -q src/tests.
+
+## Task 6: Dashboard CLI (`src/health_dashboard.py`)
+﻿- Implemented the Task 6 dashboard CLI with deterministic statistics, flags, and rules CSV exports.
+- Added a nine-panel Matplotlib dashboard with status colors, flagged-frame overlays, density heatmaps, and timestamp handling.
+- Added tests for synthetic outputs, CSV determinism, missing timestamps, and CLI help.
+- Validated with python -m pytest -q src/tests using the project virtual environment: all 47 tests passed.
