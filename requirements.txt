@@ -7,3 +7,4 @@ pandas>=2.0
 # Topic D (robot/drone obstacle): pip install open3d>=0.18
 # Topic B/C (detector): dùng môi trường riêng theo hướng dẫn MMDetection3D hoặc OpenPCDet,
 # KHÔNG cài chung vào môi trường này (dễ vỡ phiên bản torch/CUDA).
+pytest>=7.4
