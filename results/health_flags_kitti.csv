@@ -1,0 +1,21 @@
+frame_id,status,n_flags,flags,reasons,action
+000001,OK,0,,,use
+000004,OK,0,,,use
+000007,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-1.692; abs(value-median(-1.3595)) > 0.3 m,review/label
+000008,OK,0,,,use
+000009,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-1.668; abs(value-median(-1.3595)) > 0.3 m,review/label
+000010,WARN,1,RANGE_ANOMALY,RANGE_ANOMALY: range_p95=50.7362 > 1.5*median(32.0371),review/label
+000011,OK,0,,,use
+000012,WARN,2,RANGE_ANOMALY;Z_SHIFT,RANGE_ANOMALY: range_p95=53.3866 > 1.5*median(32.0371) | Z_SHIFT: z_p50=-1.716; abs(value-median(-1.3595)) > 0.3 m,review/label
+000015,OK,0,,,use
+000016,WARN,1,RANGE_ANOMALY,RANGE_ANOMALY: range_p95=49.628 > 1.5*median(32.0371),review/label
+000019,OK,0,,,use
+000021,OK,0,,,use
+000023,OK,0,,,use
+000025,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.952; abs(value-median(-1.3595)) > 0.3 m,review/label
+000031,OK,0,,,use
+000032,OK,0,,,use
+000043,OK,0,,,use
+000048,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-1.009; abs(value-median(-1.3595)) > 0.3 m,review/label
+000049,OK,0,,,use
+000061,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-1.687; abs(value-median(-1.3595)) > 0.3 m,review/label

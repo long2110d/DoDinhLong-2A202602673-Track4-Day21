@@ -1,0 +1,81 @@
+frame_id,status,n_flags,flags,reasons,action
+scene-0103_000,OK,0,,,use
+scene-0103_001,OK,0,,,use
+scene-0103_002,OK,0,,,use
+scene-0103_003,OK,0,,,use
+scene-0103_004,OK,0,,,use
+scene-0103_005,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.608703; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-0103_006,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.5878; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-0103_007,OK,0,,,use
+scene-0103_008,OK,0,,,use
+scene-0103_009,OK,0,,,use
+scene-0103_010,OK,0,,,use
+scene-0103_011,OK,0,,,use
+scene-0103_012,OK,0,,,use
+scene-0103_013,OK,0,,,use
+scene-0103_014,OK,0,,,use
+scene-0103_015,OK,0,,,use
+scene-0103_016,OK,0,,,use
+scene-0103_017,OK,0,,,use
+scene-0103_018,OK,0,,,use
+scene-0103_019,OK,0,,,use
+scene-0103_020,OK,0,,,use
+scene-0103_021,OK,0,,,use
+scene-0103_022,OK,0,,,use
+scene-0103_023,OK,0,,,use
+scene-0103_024,OK,0,,,use
+scene-0103_025,OK,0,,,use
+scene-0103_026,OK,0,,,use
+scene-0103_027,OK,0,,,use
+scene-0103_028,OK,0,,,use
+scene-0103_029,OK,0,,,use
+scene-0103_030,OK,0,,,use
+scene-0103_031,OK,0,,,use
+scene-0103_032,OK,0,,,use
+scene-0103_033,OK,0,,,use
+scene-0103_034,OK,0,,,use
+scene-0103_035,OK,0,,,use
+scene-0103_036,OK,0,,,use
+scene-0103_037,OK,0,,,use
+scene-0103_038,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.591617; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-0103_039,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.596102; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-1094_000,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.355518; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-1094_001,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-0.368657; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-1094_002,OK,0,,,use
+scene-1094_003,OK,0,,,use
+scene-1094_004,OK,0,,,use
+scene-1094_005,OK,0,,,use
+scene-1094_006,OK,0,,,use
+scene-1094_007,OK,0,,,use
+scene-1094_008,OK,0,,,use
+scene-1094_009,OK,0,,,use
+scene-1094_010,OK,0,,,use
+scene-1094_011,OK,0,,,use
+scene-1094_012,OK,0,,,use
+scene-1094_013,OK,0,,,use
+scene-1094_014,OK,0,,,use
+scene-1094_015,OK,0,,,use
+scene-1094_016,OK,0,,,use
+scene-1094_017,OK,0,,,use
+scene-1094_018,OK,0,,,use
+scene-1094_019,OK,0,,,use
+scene-1094_020,OK,0,,,use
+scene-1094_021,OK,0,,,use
+scene-1094_022,OK,0,,,use
+scene-1094_023,OK,0,,,use
+scene-1094_024,OK,0,,,use
+scene-1094_025,OK,0,,,use
+scene-1094_026,OK,0,,,use
+scene-1094_027,OK,0,,,use
+scene-1094_028,OK,0,,,use
+scene-1094_029,OK,0,,,use
+scene-1094_030,OK,0,,,use
+scene-1094_031,OK,0,,,use
+scene-1094_032,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-1.23584; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-1094_033,WARN,1,Z_SHIFT,Z_SHIFT: z_p50=-1.23247; abs(value-median(-0.910648)) > 0.3 m,review/label
+scene-1094_034,OK,0,,,use
+scene-1094_035,OK,0,,,use
+scene-1094_036,OK,0,,,use
+scene-1094_037,OK,0,,,use
+scene-1094_038,OK,0,,,use
+scene-1094_039,OK,0,,,use

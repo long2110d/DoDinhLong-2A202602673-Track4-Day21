@@ -38,3 +38,10 @@
 - Added a nine-panel Matplotlib dashboard with status colors, flagged-frame overlays, density heatmaps, and timestamp handling.
 - Added tests for synthetic outputs, CSV determinism, missing timestamps, and CLI help.
 - Validated with python -m pytest -q src/tests using the project virtual environment: all 47 tests passed.
+
+## Task 7: Generate dashboard results on the 3 datasets + planted-fault table
+- Implemented the dataset comparison CLI with median health metrics, timing, status percentages, and separate nuScenes day/night groups.
+- Exported synthetic fault rows directly from dashboard flags and their measured rule evidence.
+- Generated real dashboard CSVs and figures for synthetic, KITTI, and nuScenes, plus both requested projection overlays.
+- Visually checked both overlays for points on scene objects and no visible points in the sky.
+- Added handmade CSV tests covering aggregation, day/night splitting, fault evidence, missing timestamps, and deterministic exports; python -m pytest -q src/tests passed.

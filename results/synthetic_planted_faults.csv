@@ -1,0 +1,8 @@
+fault,frame_id,detected_by_rule,evidence_value
+Non-finite point values,000000,INVALID_POINTS,invalid_ratio=0.00096 > 0
+Non-finite point values,000001,INVALID_POINTS,invalid_ratio=0.000967 > 0
+Non-finite point values,000002,INVALID_POINTS,invalid_ratio=0.000967 > 0
+Non-finite point values,000003,INVALID_POINTS,invalid_ratio=0.000997 > 0
+Possible dropped frame,000003,TIME_GAP,dt_ratio=2 > 1.5
+Partial angular dropout; a sector has less than 35% of mean return density,000003,SECTOR_SPARSE,az_min_bin_ratio=0.311964 < 0.35
+Non-finite point values,000004,INVALID_POINTS,invalid_ratio=0.000968 > 0

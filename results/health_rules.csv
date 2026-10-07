@@ -1,0 +1,13 @@
+code,severity,description,threshold_text
+INVALID_POINTS,"error if > 1%, otherwise warn",Non-finite point values,invalid_ratio > 0; error above 0.01
+LOW_POINTS,error,Too few points,n_points < 0.5*median
+HIGH_POINTS,warn,Too many points,n_points > 1.5*median
+SECTOR_GAP,error,Missing angular coverage,"gap >= 30 deg for full-coverage datasets, or empty bins > median+2; relative clause handles limited FOV"
+RANGE_ANOMALY,warn,Unusual point range,"p95 outside [0.5, 1.5]*median or max > 200 m"
+NEAR_BLOCKAGE,warn,Excess near-sensor returns,"ratio_within_2m > max(0.05, 3*median)"
+INTENSITY_ANOMALY,warn,Unusual reflectance,"zero > 0.9, saturation > 0.2, or mean deviation > 3*1.4826*max(MAD, 0.01)"
+Z_SHIFT,warn,Ground or mounting height drift,abs(z_p50-median) > 0.3 m
+DUPLICATE_FRAME,error,Repeated point cloud,hash equals an earlier frame
+TIME_GAP,warn,Possible dropped frame,dt_ratio > 1.5
+TIME_NONMONOTONIC,error,Non-increasing timestamp,dt_s <= 0
+SECTOR_SPARSE,warn,Partial angular dropout; a sector has less than 35% of mean return density,az_min_bin_ratio < 0.35 for full-coverage datasets

@@ -1,0 +1,6 @@
+frame_id,status,n_flags,flags,reasons,action
+000000,WARN,1,INVALID_POINTS,INVALID_POINTS: invalid_ratio=0.00096 > 0,review/label
+000001,WARN,1,INVALID_POINTS,INVALID_POINTS: invalid_ratio=0.000967 > 0,review/label
+000002,WARN,1,INVALID_POINTS,INVALID_POINTS: invalid_ratio=0.000967 > 0,review/label
+000003,WARN,3,INVALID_POINTS;TIME_GAP;SECTOR_SPARSE,INVALID_POINTS: invalid_ratio=0.000997 > 0 | TIME_GAP: dt_ratio=2 > 1.5 | SECTOR_SPARSE: az_min_bin_ratio=0.311964 < 0.35,review/label
+000004,WARN,1,INVALID_POINTS,INVALID_POINTS: invalid_ratio=0.000968 > 0,review/label
