@@ -19,3 +19,10 @@
 - Added dataset tags, sorted per-frame DataFrames rounded to six decimals, and raw arrays for histograms.
 - Added tests for invalid and empty clouds, circular azimuth gaps, histogram boundaries, hashes, and the synthetic dataset.
 - Ran python -m pytest -q src/tests using the repository virtual environment; all 16 tests passed.
+
+## Task 4: Timestamps and time gaps (`src/health_time.py`)
+- Implemented timestamp loading for KITTI-format and nuScenes datasets, with cached nuScenes timestamps.
+- Added clear timestamp-count validation and support for datasets without timestamps.
+- Implemented time gaps and median gap ratios while preserving non-monotonic timestamps and resetting at scene boundaries.
+- Added tests for synthetic faults, missing timestamps, count mismatches, nuScenes scenes, caching, and empty inputs.
+- Validation: python -m pytest -q src/tests passed all 24 tests using the virtual environment.
