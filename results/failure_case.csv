@@ -1,0 +1,7 @@
+rule_variant,dataset,n_frames,n_flagged,flagged_ratio
+absolute,kitti,20,0,0.000000
+absolute,nusc,80,80,1.000000
+absolute,nusc_dropout_50,80,80,1.000000
+relative,kitti,20,0,0.000000
+relative,nusc,80,0,0.000000
+relative,nusc_dropout_50,80,39,0.487500

@@ -51,3 +51,10 @@
 - Added optional clean reference statistics to freeze benchmark medians without changing existing rules or thresholds.
 - Generated KITTI detection CSV, KITTI/nuScenes latency CSV with 20 repeats per frame, and a four-panel detection figure.
 - Added synthetic CLI, reproducibility, latency, and frozen-reference tests; all 51 tests pass with python -m pytest -q src/tests.
+
+## Task 9: Failure case figure (`src/failure_case.py`)
+- Implemented Task 9 with a deterministic failure-analysis CLI and tests using small point arrays.
+- Generated results/failure_case.csv and the three-panel fail_01_kitti_threshold_on_nuscenes.png from real KITTI and nuScenes clouds.
+- Verified that the absolute KITTI threshold flags all 80 clean and all 80 degraded nuScenes frames; the relative rule flags 0 clean and 39 degraded frames.
+- Annotated KITTI front at 0 degrees and nuScenes front at +90 degrees, with nuScenes 0 degrees pointing right.
+- Verified repeat-run CSV byte equality and passed python -m pytest -q src/tests using the project virtual environment.
